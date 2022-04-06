@@ -1,0 +1,11 @@
+debug: true
+
+server:
+  port: 8881
+  servlet:
+    context-path: /ws
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
